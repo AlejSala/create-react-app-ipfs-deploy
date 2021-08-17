@@ -1,8 +1,36 @@
+  
 {
   "name": "create-react-app-ipfs-deploy",
   "homepage": ".",
+   "description": "Yasss a DWeb3App. Creator-Owned decentralized Creator-to-Peer Marketplace of NFT digital hyper-media [stream, image, video, audio, text].  24/7cross-border exhibit, gallery, art market, store to subscribe to a life-time relationship with creator and like-minded-peer community.",
   "version": "0.1.0",
-  "private": true,  
+  "private": true,
+  
+  "forkedby": {
+  "name" : "Alejandra M. Salaverriae",
+  "email" : "allyalejandra@pm.me",
+  "url" : "https://alejandra-m-salaverria.com/"
+},
+  
+  "funding": {
+    "type" : "gitcoin",
+    "url" : "https://gitcoin.co/grants/3351/yasss"
+},
+
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/AlejSala/yasss-hackfs",
+},
+  
+ "reportbugs": {
+  "url" : "https://github.com/AlejSala/yasss-hackfs/issues",
+  "email" : "yasss.eth@pm.me"
+},
+  
+  "license": {
+  "license": "MIT"
+},
+   
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -11,7 +39,7 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
-  },  
+},  
   
   "scripts": {
     "start": "react-scripts start",
@@ -19,15 +47,22 @@
     "test": "jest",
     "eject": "react-scripts eject"
   },
+  
+  "license": 
+  "license": "MIT"
+},
+
   "eslintConfig": {
     "extends": "react-app"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
+    
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
