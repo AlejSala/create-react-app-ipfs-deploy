@@ -1,26 +1,35 @@
-  
 {
-  "name": "create-react-app-ipfs-deploy",
+  "name": "yasss-ip",
   "homepage": ".",
    "description": "Yasss a DWeb3App. Creator-Owned decentralized Creator-to-Peer Marketplace of NFT digital hyper-media [stream, image, video, audio, text].  24/7cross-border exhibit, gallery, art market, store to subscribe to a life-time relationship with creator and like-minded-peer community.",
   "version": "0.1.0",
   "private": true,
   
-  "forkedby": {
+  "author": {
   "name" : "Alejandra M. Salaverria",
   "email" : "allyalejandra@pm.me",
   "url" : "https://alejandra-m-salaverria.com"
 },
   
+  "funding": {
+    "type" : "gitcoin",
+    "url" : "https://gitcoin.co/grants/3351/yasss"
+},
+
   "repository": {
     "type": "github",
-    "url": "https://github.com/AlejSala/create-react-app-ipfs-deploy",
+    "url": "https://github.com/AlejSala/yasss-ip",
+},
+  
+ "reportbugs": {
+  "url" : "https://github.com/AlejSala/yasss-ip/issues",
+  "email" : "allyalejandra@pm.me"
 },
   
   "license": {
   "license": "MIT"
 },
-   
+  
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -29,23 +38,22 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
-},  
-  
+  },
+
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src -d lib",
-    "test": "jest",
+    "build": "babel src -d lib", // changed to build with yarn before: "build": "react-scripts build",
+    "test": "jest",             // changed to test with jest   before: "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
-  "license": 
-  "license": "MIT"
-},
 
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+    
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
